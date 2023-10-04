@@ -1,0 +1,29 @@
+.dropDownToggle {
+  display: flex;
+  padding: 0.3rem;
+  align-items: center;
+  gap: 8px;
+}
+.dropDown {
+  margin: 5px;
+  cursor: pointer;
+  row-gap: 50px;
+}
+.dropDownMenu {
+  background-color: rgb(243, 239, 213);
+  padding: 1rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  position: absolute;
+  top: 5rem;
+  right: 6.5rem;
+}
+
+.dropDownHover {
+  color: black;
+}
+.dropDownHover:hover {
+  background-color: rgb(72, 116, 211);
+  color: #fff;
+  transition: 0.2s;
+}

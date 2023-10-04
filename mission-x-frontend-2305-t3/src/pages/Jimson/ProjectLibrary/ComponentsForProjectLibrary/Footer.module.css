@@ -1,0 +1,11 @@
+.footerContainer {
+    display: flex;
+    padding: 80px 25px;
+    justify-content: space-evenly;
+    background-color: #92cee9;
+  }
+
+/* ul li {
+  padding-bottom: .3rem;
+  font-weight: bolder;
+} */

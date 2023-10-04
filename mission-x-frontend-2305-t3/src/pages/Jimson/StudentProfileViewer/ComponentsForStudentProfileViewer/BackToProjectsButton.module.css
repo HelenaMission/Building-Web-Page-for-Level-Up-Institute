@@ -1,0 +1,19 @@
+.backToProjectBtn {
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: bolder;
+  background-color: #f8098c;
+  cursor: pointer;
+  border: 0px;
+}
+
+.backToProjectButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 17%;
+  padding-bottom: 50px;
+  background-color: #e5e4e2;
+}

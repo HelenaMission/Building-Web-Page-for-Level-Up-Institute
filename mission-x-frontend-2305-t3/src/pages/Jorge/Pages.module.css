@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+}
+
+.main {
+  flex: 1; /* Let the main section fill the remaining vertical space */
+  display: flex;
+}
+
+.optionsMenu {
+  flex: 0 0 15%;
+  background-color: #43c0f6;
+}
+
+.tracker {
+  flex: 1; /* Make the tracker take up the remaining space */
+  background-color: #b2e4fa;
+}
+
+.subContainer {
+  flex: 1;
+  background-color: #d9f2fd;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(
+    100vh - 220px
+  ); /* Adjust the height to consider the desired margins */
+  margin: 60px 93px 30px 60px; /* Set the desired margins */
+}
+
+.webScrollBar {
+  overflow-y: auto; /* Add vertical scroll bar when content exceeds container height */
+}
+
+.webScrollBar::-webkit-scrollbar {
+  width: 14px;
+}
+
+.webScrollBar::-webkit-scrollbar-track {
+  background-color: white; /* Background color of the track */
+  border-radius: 15px;
+}
+
+.webScrollBar::-webkit-scrollbar-thumb {
+  background-color: #43c0f6; /* Color of the scroll thumb */
+  border-radius: 15px; /* Rounded border radius */
+}
+
+.webScrollBar::-webkit-scrollbar-thumb:hover {
+  background: #24b3f0; /* Color of the scroll thumb on hover */
+}

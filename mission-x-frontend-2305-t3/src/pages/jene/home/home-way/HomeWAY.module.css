@@ -1,0 +1,267 @@
+.ctaContainer {
+  display: flex;
+  width: 100vw;
+  height: 630px;
+}
+
+.imgContainer {
+  margin: 100px 0px 0px 280px;
+  justify-content: left;
+}
+
+.img {
+  width: 625px;
+}
+
+.ctaBlurb {
+  margin: 120px 0px 0px 135px;
+  text-align: left;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+}
+
+.h1 {
+  margin: 0px 0px 0px 0px;
+  font-family: "Nunito";
+  font-size: 42px;
+  color: #6c6c6c;
+  letter-spacing: 0.25px;
+}
+
+.h2 {
+  margin: 23px 0px 0px 0px;
+  font-family: "Open Sans";
+  font-size: 31px;
+  color: #6c6c6c;
+  line-height: 1;
+  letter-spacing: 0.1px;
+}
+
+.h3 {
+  margin: 38px 0px 0px 0px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: #6c6c6c;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.buttons {
+  margin: 65px 0px 0px 0px;
+}
+
+.button1 {
+  margin: 0px 120px 0px 0px;
+  background-color: #ffffff;
+  width: 175px;
+  height: 35px;
+  box-shadow: 0px 4px 5px #00000029;
+  border: 3px solid #43c0f6;
+  border-radius: 7px;
+  opacity: 1;
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 16px;
+  color: #707070;
+  transition: all 0.2s;
+}
+
+.button1:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+.button2 {
+  width: 175px;
+  height: 35px;
+  background: #f91c85 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 5px #00000029;
+  border: none;
+  border-radius: 7px;
+  opacity: 1;
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 16px;
+  color: #f0efef;
+  margin: 0px 0px 0px 0px;
+  transition: all 0.2s;
+}
+
+.button2:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+/* Modal CSS from here */
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 50;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.7);
+  backdrop-filter: blur(7px);
+}
+
+.modalContent {
+  position: absolute;
+  top: 5vh;
+  left: 24vw;
+  z-index: 999;
+}
+
+/*Login CSS from here */
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  width: 1000px;
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: #ffffff;
+}
+
+.studentsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 498px;
+  margin: 80px 0px 0px 0px;
+}
+
+.teachersContainer {
+  width: 500px;
+  border-left: 2px solid #707070;
+  padding: 4px 0px 0px 0px;
+}
+
+.img1Container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 42px 64px 0px 0px;
+}
+
+.teachers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgStudents {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.imgEsc {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.imgEsc:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.imgTeachers {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.h1Students {
+  font-family: "Nunito";
+  font-size: 42px;
+  font-weight: 900;
+  color: #707070;
+  margin: 30px 0px 40px 0px;
+  padding: 0;
+}
+
+.h1Teachers {
+  font-family: "Nunito";
+  font-size: 42px;
+  font-weight: 900;
+  color: #707070;
+  margin: 15px 0px 40px 0px;
+  padding: 0;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.loginOptions {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 7px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.loginH2 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  color: #a5a5a5;
+  padding: 0;
+  margin-right: 34px;
+}
+
+.loginH2:hover {
+  cursor: pointer;
+}
+
+.loginH2.active {
+  color: #707070;
+}
+
+.loginH2.active:after {
+  content: "";
+  float: left;
+  background: #43c0f6;
+  width: 100%;
+  height: 4px;
+  border-radius: 3px;
+}
+
+.signupH2 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  color: #a5a5a5;
+}
+
+.signupH2:hover {
+  cursor: pointer;
+}
+
+.signupH2.active {
+  color: #707070;
+}
+
+.signupH2.active:after {
+  content: "";
+  float: left;
+  background: #f91c85;
+  width: 100%;
+  height: 4px;
+  border-radius: 3px;
+}

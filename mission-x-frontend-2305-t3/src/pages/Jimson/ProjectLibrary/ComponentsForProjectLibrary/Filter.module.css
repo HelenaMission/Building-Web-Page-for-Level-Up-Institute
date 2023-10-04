@@ -1,0 +1,107 @@
+.mainContainer {
+  display: flex;
+  margin: 0 5rem;
+}
+.checkboxContainer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-left: 110px;
+  padding-right: 20px;
+}
+/* styles for all checkbox title category */
+.checkboxFilter {
+  border-bottom: 2px solid #493a3a;
+  padding-bottom: 5px;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+/* styles for each filter div */
+.subscription {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.activityType {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.yearLevel {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.subjectMatter {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+/* --------buttons styling------------- */
+.buttonsAndDisplayContainer {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.buttonsDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.filterBtn {
+  background-color: rgb(242, 233, 225);
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  font-weight: 800;
+  border: 0px;
+  font-size: small;
+  box-shadow: 0px 0px 6px -3px;
+}
+.filterBtn:hover {
+  background-color: lightblue;
+  transition: 0.2s;
+  color: #fff;
+}
+.leftButtonSize {
+  width: 120px;
+  text-align: center;
+}
+.rightButtonSize {
+  width: 70px;
+  text-align: center;
+}
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  padding: 1rem;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+.textCard {
+  font-size: medium;
+  padding: 0.5rem;
+  color: rgb(82, 78, 78);
+}
+.titleCard {
+  font-size: x-large;
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+.active {
+  background-color: #638fec;
+  color: whitesmoke;
+}
+/* To make filter buttons edge round */
+.beginnerAnd5Btn {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.advancedAndAllBtn {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}

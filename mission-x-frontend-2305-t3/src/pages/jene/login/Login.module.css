@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+.fullScreen {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 120em;
+  backdrop-filter: blur(8px);
+  color: #707070;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 56px 0px 0px 460px;
+  box-sizing: border-box;
+  width: 62.5em;
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: #ffffff;
+}
+
+.studentsContainer {
+  width: 31.25em;
+  margin: 80px 0px 0px 0px;
+}
+
+.teachersContainer {
+  width: 31.25em;
+  border-left: 2px solid #707070;
+  margin: 4px 0px 0px 0px;
+}
+
+.img2Container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 42px 64px 0px 0px;
+}
+
+.imgStudents {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.imgEsc {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.imgTeachers {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.h1Students {
+  font-family: "Nunito";
+  font-size: 42px;
+  font-weight: 900;
+  color: #707070;
+  margin: 30px 0px 22px 0px;
+  padding: 0;
+}
+
+.h1Teachers {
+  font-family: "Nunito";
+  font-size: 42px;
+  font-weight: 900;
+  color: #707070;
+  margin: 10px 0px 28px 0px;
+  padding: 0;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.h2LogIn {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  color: #707070;
+  margin: 0px 17px;
+}
+
+.loginH2:after {
+  content: "";
+  float: left;
+  background: #43c0f6;
+  width: 100%;
+  height: 4px;
+  border-radius: 3px;
+  margin-top: 0px;
+}
+
+.h2SignUp {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  color: #707070;
+  margin: 0px 17px;
+}

@@ -1,0 +1,121 @@
+
+.mainIn{
+    background:#FFFFFF80;
+    position:absolute;
+    width:80vw;
+    height:75vh;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-top:2%;
+}
+
+.scrollBox {
+    display:block;
+    width: 77vw;
+    margin: 25px 10px;
+    height: 53vh;
+    overflow-y: scroll;
+
+}
+
+.scrollBox::-webkit-scrollbar {
+  width: 14px;
+}
+
+.scrollBox::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+ 
+.scrollBox::-webkit-scrollbar-track-piece{
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.scrollBox::-webkit-scrollbar-thumb {
+  background: #43C0F6; 
+  border-radius: 15px;
+}
+
+.scrollBox::-webkit-scrollbar-thumb:hover {
+  background: #2cbbf9; 
+}
+
+
+.title {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 75px;
+    color: #6C6C6C;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    font-weight: bold;
+}
+
+
+.btn {
+    border-style: none;
+    background: transparent;
+    margin-left: 30px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.profilePic{
+    width:46px;
+    height:46px;
+}
+
+.studentsDetails{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin:14px;
+    width: 70vw;
+    height: 7vh;
+    padding-left: 50px;
+    padding-right:20px;
+}
+
+.checkbox{
+    width:21px;
+    height: 21px;
+}
+
+.helpMsg{
+    margin-right: 30%;
+}
+
+.icons {
+    width:30px;
+    height:15px;
+}
+
+.helpMsg, .requestTime {
+    color: #707070;
+    font-weight:bold;
+    font-family: Open Sans;
+}
+
+.requestTime {
+    font-size: 10px;
+    width: 8%;
+    text-align: end;
+}
+
+

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+.body {
+  background-color: #b2e4fa;
+  height: 635px;
+  width: 100vw;
+  max-width: 1920px;
+  color: #707070;
+}
+
+.row {
+  display: flex;
+  text-align: left;
+  padding: 150px 280px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0px 50px 12px 0px;
+}
+
+.title2 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0px 40px 5px 0px;
+}
+
+.ul {
+  list-style: none;
+  justify-content: center;
+  text-align: left;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+}
+
+.li {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px, 0px, 0px, 0px;
+  padding: 10px 0px 0px 0px;
+  text-align: left;
+}
+
+.blurb {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px, 0px, 0px, 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  line-height: 1.7;
+}
+
+/* Media Query for Responsive Design */

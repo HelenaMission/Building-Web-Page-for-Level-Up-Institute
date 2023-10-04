@@ -1,0 +1,69 @@
+.profileContainer {
+  display: flex;
+  padding: 5% 18%;
+  gap: 30px;
+}
+.profileImageCard {
+  background-color: rgb(246, 252, 252);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 50px;
+  padding: 50px;
+  margin-bottom: 100px;
+  gap: 20px;
+  border-radius: 20px;
+}
+.studentDetailsContainer {
+  background-color: rgb(246, 252, 252);
+  width: 65%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.studentImg {
+  width: 185px;
+}
+.detailsWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-top: 1rem;
+  margin: 2rem;
+  width: 95%;
+}
+.key,
+.value {
+  font-size: x-large;
+}
+.text {
+  padding: 0.6rem;
+}
+.textK {
+  padding: 0.6rem;
+  padding-left: 0;
+  color: rgb(175, 170, 170);
+}
+.studentsName {
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.buttonSPV {
+  /* background-color: blue; */
+  padding: 10px 10px;
+  margin: 5px;
+  width: 12rem;
+  border-radius: 10px;
+  color: rgb(23, 158, 176);
+  font-size: medium;
+  font-weight: bolder;
+  border-color: rgb(17, 208, 233);
+  cursor: pointer;
+}
+.mainContainer {
+  background-color: #e5e4e2;
+}

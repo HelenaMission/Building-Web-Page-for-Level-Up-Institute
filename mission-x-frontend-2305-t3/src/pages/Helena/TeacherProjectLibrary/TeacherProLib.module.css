@@ -1,0 +1,31 @@
+.containerProjectLibraryPage {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(130, 216, 216); */
+  width: 100%;
+  height: 100%;
+  font-size: large;
+}
+.projectText {
+  margin: 30px;
+  padding: 25px;
+  margin-left: 28%;
+}
+/* Positioning BackToTop button inside a div */
+.bttButtonDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+/* .backToTopButton {
+  background-color: orange;
+  color: whitesmoke;
+  font-weight: bolder;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  border: 0px;
+} */

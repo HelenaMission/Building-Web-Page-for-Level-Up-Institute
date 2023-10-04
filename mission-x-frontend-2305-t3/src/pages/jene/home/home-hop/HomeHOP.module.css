@@ -1,0 +1,123 @@
+.hopContainer {
+  font-weight: 700;
+  width: 100vw;
+  max-width: 1920px;
+  height: 795px;
+}
+
+.title {
+  margin: 0px 0px 0px 0px;
+}
+
+.h1 {
+  font-family: "Nunito";
+  font-size: 42px;
+  font-weight: 700;
+  color: #606060;
+  margin: 0px 0px 55px 452px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 17px 0px;
+}
+
+.button1 {
+  margin: 0px 50px 0px 50px;
+  background-color: #ffffff;
+  width: 250px;
+  height: 35px;
+  box-shadow: 0px 4px 5px #00000029;
+  border: 3px solid #43c0f6;
+  border-radius: 7px;
+  opacity: 1;
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 16px;
+  color: #707070;
+  transition: all 0.2s;
+}
+
+.button1:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+.hop {
+  display: flex;
+  width: 100%;
+  height: 635px;
+  background-color: #efeff1;
+  text-align: left;
+}
+
+.hopCenter {
+  width: 75%;
+  font-size: large;
+  margin: 70px 0px 0px 280px;
+}
+
+.h2 {
+  font-family: "Nunito";
+  font-size: 30px;
+  font-weight: 700;
+  color: #606060;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+}
+
+.h3 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #606060;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+}
+
+.list {
+  display: flex;
+}
+
+.listItem {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.logo {
+  width: 40px;
+  height: 37px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  margin: 0px 5px 5px 0px;
+}
+
+.h4 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: 100%;
+  color: #606060;
+  margin: 0px 0px 0px 0px;
+  line-height: 1;
+  text-align: left;
+}
+
+.h5 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  color: #606060;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.active {
+  background-color: #efeff1;
+  border: 3px solid #efeff1;
+}
+
+/* Media Query for Responsive Design */

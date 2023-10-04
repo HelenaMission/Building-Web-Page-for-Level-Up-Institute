@@ -1,0 +1,12 @@
+.pinkButton {
+    color: white;
+    width: 154px;
+    height: 25px;
+    text-align:center;
+    font-weight:bolder;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(243, 77, 168);
+    font-size: 12px;
+    border-style: none;
+}

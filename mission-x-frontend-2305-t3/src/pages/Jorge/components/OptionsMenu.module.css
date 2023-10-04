@@ -1,0 +1,64 @@
+/* Disable text selection for the entire page */
+body {
+  user-select: none;
+}
+
+/* Enable text selection for specific elements if needed */
+.your-element {
+  user-select: auto;
+}
+
+a {
+  color: inherit;
+}
+
+#teacherDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px 10px;
+}
+
+.teacherImage {
+  width: auto;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  justify-self: auto;
+}
+
+#menuOptions {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  margin-bottom: 34vh;
+}
+
+ul {
+  list-style: none;
+  /* background-color: violet; */
+  border-color: black;
+  width: 100%;
+}
+
+.list {
+  margin: 20px 0 20px 25px;
+}
+
+ol {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style: none;
+}
+
+.logos {
+  height: 25px;
+  margin-right: 10px;
+}
